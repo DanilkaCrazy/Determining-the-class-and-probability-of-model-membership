@@ -1,5 +1,7 @@
 # Determining the class and probability of model membership
-Воспользуйтесь моделью aychang/roberta-base-imdb(https://huggingface.co/aychang/roberta-base-imdb), которая обучена на датасете imdb(https://huggingface.co/datasets/stanfordnlp/imdb). Это датасет, содержащий 50000 комментариев к фильмам на платформе IMDB, отзывы пользователей классифицируются на два класса - положительные (label - neg) и отрицательные (label - pos). С помощью импортированной модели определите настроение следующего отзыва:
+
+Воспользуйтесь моделью [aychang/roberta-base-imdb](https://huggingface.co/aychang/roberta-base-imdb), которая обучена на датасете [imdb](https://huggingface.co/datasets/stanfordnlp/imdb). Это датасет, содержащий 50000 комментариев к фильмам на платформе IMDB, отзывы пользователей классифицируются на два класса - положительные (label - neg) и отрицательные (label - pos). С помощью импортированной модели определите настроение следующего отзыва:
+
 \```
 text_cls = """This film was probably inspired by Godard's Masculin, féminin and I urge you to see that film instead.
 The film has two strong elements and those are, the realistic acting the impressive, undeservedly good, photo. 
